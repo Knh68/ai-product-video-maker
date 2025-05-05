@@ -13,25 +13,22 @@ Tự động tạo video bán hàng hấp dẫn từ văn bản với giọng đ
 - ✅ Xuất video MP4 sẵn sàng đăng Facebook
 
 ---
+🧙 Yêu cầu hệ thống
+🖼️ ImageMagick
+MoviePy cần ImageMagick để hiển thị phụ đề đẹp (chữ căn giữa, có nền mờ):
+
+Tải tại: https://imagemagick.org/
+
+Khi cài đặt, hãy tick chọn: ✅ "Install legacy utilities (convert)"
+
+Cập nhật đường dẫn magick.exe trong video_maker.py nếu cần
 
 ## 📂 Cấu trúc thư mục
-project/
-├── main.py
-├── config.py
-├── scripts/
-│ ├── tts_engine.py
-│ ├── subtitle_generator.py
-│ └── video_maker.py
-├── input/
-│ ├── full_script.txt
-│ ├── images/
-│ └── background.mp3
-├── audio/
-├── subtitles/
-├── output/
-└── requirements.txt
-
+```
+<pre lang="markdown"><code>## 📂 Cấu trúc thư mục ``` project/ ├── main.py ├── config.py ├── requirements.txt ├── scripts/ │ ├── tts_engine.py │ ├── subtitle_generator.py │ └── video_maker.py ├── input/ │ ├── full_script.txt │ ├── images/ │ └── background.mp3 ├── audio/ ├── subtitles/ └── output/ ``` </code></pre>
+```
 ## ▶️ Cách sử dụng
+Cài đặt: pip install -r requirements.txt
 
 1. **Tạo nội dung** trong `input/full_script.txt` (kịch bản bán hàng)
 2. **Thêm hình ảnh** vào `input/images/`

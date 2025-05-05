@@ -1,4 +1,4 @@
-# Facebook Video Seller 🚀🎬
+# ai-product-video-maker 🚀🎬
 
 Tự động tạo video bán hàng hấp dẫn từ văn bản với giọng đọc AI, phụ đề, hình ảnh minh họa và nhạc nền.  
 Ứng dụng lý tưởng cho quảng bá sản phẩm trên Facebook, YouTube, TikTok...

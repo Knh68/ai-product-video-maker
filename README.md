@@ -15,7 +15,6 @@ Tự động tạo video bán hàng hấp dẫn từ văn bản với giọng đ
 ---
 
 ## 📂 Cấu trúc thư mục
-
 project/
 ├── main.py
 ├── config.py
@@ -31,8 +30,6 @@ project/
 ├── subtitles/
 ├── output/
 └── requirements.txt
-
----
 
 ## ▶️ Cách sử dụng
 

@@ -56,11 +56,11 @@ Cài đặt: pip install -r requirements.txt
 3. (Tùy chọn) Thêm nhạc nền `input/background.mp3`
 4. Chạy:
 ```bash
-python main.py
+python main.py```
 Kết quả: Video xuất ra ở thư mục output, trường hợp full_script.txt dài, có thể xuất nhiều file video mp4.
 Nếu nhiều file mp4, gộp lại bằng cách chạy: python scripts/merge_videos.py
 kết quả sẽ có file final_video.mp4 trong thư mục output.
-```
+
 **Những hạn chế**
 Video sẽ lấy các hình ảnh làm nền với hiệu ứng nhẹ. 
 Có thể dùng file mp3 và file phụ đề ở thư mục audio và subtitles đã đồng bộ chính xác cùng nhau và chuyển qua các ứng dụng mạnh mẽ khác như Canva, CapCut có thể tiết kiệm thời gian.

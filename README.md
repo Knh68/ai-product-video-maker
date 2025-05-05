@@ -40,6 +40,14 @@ project/
 ├── output/
 └── requirements.txt
 ```
+**Cấu hình OpenAI API Key:**
+Mở file .env, dán Key vào ```sk-nhập OpenAI key của bạn``` và lưu lại
+c**ác tùy chọn bổ sung**
+**Giọng đọc:**
+TTS_VOICE=echo mặc định giọng đọc nam, để có giọng đọc nữ, đổi thành: TTS_VOICE=nova
+**Tốc độ đọc**
+TTS_SPEED=1.0 mặc định, tăng tốc độ đọc ví dụ: TTS_SPEED=1.2
+Sau khi điều chỉnh lưu lại.
 ## ▶️ Cách sử dụng
 Cài đặt: pip install -r requirements.txt
 
@@ -52,8 +60,11 @@ python main.py
 Kết quả: Video xuất ra ở thư mục output, trường hợp full_script.txt dài, có thể xuất nhiều file video mp4.
 Nếu nhiều file mp4, gộp lại bằng cách chạy: python scripts/merge_videos.py
 kết quả sẽ có file final_video.mp4 trong thư mục output.
-
-📄 Giấy phép sử dụng – MIT License
+```
+**Những hạn chế**
+Video sẽ lấy các hình ảnh làm nền với hiệu ứng nhẹ. 
+Có thể dùng file mp3 và file phụ đề ở thư mục audio và subtitles đã đồng bộ chính xác cùng nhau và chuyển qua các ứng dụng mạnh mẽ khác như Canva, CapCut có thể tiết kiệm thời gian.
+📄 **Giấy phép sử dụng – MIT License**
 Bạn được phép sử dụng lại, chỉnh sửa, và tích hợp dự án này cho mục đích cá nhân hoặc thương mại, miễn là giữ nguyên thông tin bản quyền trong file LICENSE.
 
 Dự án được chia sẻ với tinh thần cộng đồng và sáng tạo tự do.

@@ -50,6 +50,9 @@ Cài đặt: pip install -r requirements.txt
 4. Chạy:
 ```bash
 python main.py
+Kết quả: Video xuất ra ở thư mục output, trường hợp full_script.txt dài, có thể xuất nhiều file video mp4.
+Nếu nhiều file mp4, gộp lại bằng cách chạy: python scripts/merge_videos.py
+kết quả sẽ có file final_video.mp4 trong thư mục output.
 
 📄 Giấy phép sử dụng – MIT License
 Bạn được phép sử dụng lại, chỉnh sửa, và tích hợp dự án này cho mục đích cá nhân hoặc thương mại, miễn là giữ nguyên thông tin bản quyền trong file LICENSE.

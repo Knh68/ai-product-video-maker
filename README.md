@@ -60,9 +60,9 @@ Cài đặt: ```pip install -r requirements.txt```
 4. Chạy:
 
 ```python main.py```
-Kết quả: Video xuất ra ở thư mục output, trường hợp full_script.txt dài, có thể xuất nhiều file video mp4.
-Nếu nhiều file mp4, gộp lại bằng cách chạy: python scripts/merge_videos.py
-kết quả sẽ có file final_video.mp4 trong thư mục output.
+Kết quả: Video xuất ra ở thư mục output, trường hợp ```full_script.txt``` dài, có thể xuất nhiều file video mp4.
+Nếu nhiều file mp4, gộp lại bằng cách chạy: ```python scripts/merge_videos.py```
+kết quả sẽ có file ```final_video.mp4``` trong thư mục output.
 
 **Những hạn chế**
 Video sẽ lấy các hình ảnh làm nền với hiệu ứng nhẹ. 

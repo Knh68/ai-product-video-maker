@@ -25,7 +25,21 @@ Cập nhật đường dẫn magick.exe trong video_maker.py nếu cần
 
 ## 📂 Cấu trúc thư mục
 ```
-<pre lang="markdown"><code>## 📂 Cấu trúc thư mục ``` project/ ├── main.py ├── config.py ├── requirements.txt ├── scripts/ │ ├── tts_engine.py │ ├── subtitle_generator.py │ └── video_maker.py ├── input/ │ ├── full_script.txt │ ├── images/ │ └── background.mp3 ├── audio/ ├── subtitles/ └── output/ ``` </code></pre>
+project/
+├── main.py
+├── config.py
+├── scripts/
+│ ├── tts_engine.py
+│ ├── subtitle_generator.py
+│ └── video_maker.py
+├── input/
+│ ├── full_script.txt
+│ ├── images/
+│ └── background.mp3
+├── audio/
+├── subtitles/
+├── output/
+└── requirements.txt
 ```
 ## ▶️ Cách sử dụng
 Cài đặt: pip install -r requirements.txt

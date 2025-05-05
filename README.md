@@ -42,14 +42,17 @@ project/
 ```
 **Cấu hình OpenAI API Key:**
 Mở file .env, dán Key vào ```sk-nhập OpenAI key của bạn``` và lưu lại
+
 c**ác tùy chọn bổ sung**
 **Giọng đọc:**
 TTS_VOICE=echo mặc định giọng đọc nam, để có giọng đọc nữ, đổi thành: TTS_VOICE=nova
+
 **Tốc độ đọc**
 TTS_SPEED=1.0 mặc định, tăng tốc độ đọc ví dụ: TTS_SPEED=1.2
 Sau khi điều chỉnh lưu lại.
+
 ## ▶️ Cách sử dụng
-Cài đặt: pip install -r requirements.txt
+Cài đặt: ```pip install -r requirements.txt```
 
 1. **Tạo nội dung** trong `input/full_script.txt` (kịch bản bán hàng)
 2. **Thêm hình ảnh** vào `input/images/`

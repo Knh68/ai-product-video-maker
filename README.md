@@ -1,8 +1,6 @@
 # ai-product-video-maker 🚀🎬
 
-Tự động tạo video bán hàng hấp dẫn từ văn bản với giọng đọc AI, phụ đề, hình ảnh minh họa và nhạc nền.  
-Ứng dụng lý tưởng cho quảng bá sản phẩm trên Facebook, YouTube, TikTok...
-
+> 📢 Dự án tạo video bán hàng bằng AI – hỗ trợ Facebook, TikTok, YouTube, giọng đọc và phụ đề tự động.
 ---
 
 ## 💡 Tính năng
@@ -13,7 +11,8 @@ Tự động tạo video bán hàng hấp dẫn từ văn bản với giọng đ
 - ✅ Xuất video MP4 sẵn sàng đăng Facebook
 
 ---
-🧙 Yêu cầu hệ thống
+🧙 Yêu cầu hệ thống:
+Đã thử với Python 3.9.13
 🖼️ ImageMagick
 MoviePy cần ImageMagick để hiển thị phụ đề đẹp (chữ căn giữa, có nền mờ):
 

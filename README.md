@@ -50,6 +50,13 @@ Cài đặt: pip install -r requirements.txt
 4. Chạy:
 ```bash
 python main.py
+
+📄 Giấy phép sử dụng – MIT License
+Bạn được phép sử dụng lại, chỉnh sửa, và tích hợp dự án này cho mục đích cá nhân hoặc thương mại, miễn là giữ nguyên thông tin bản quyền trong file LICENSE.
+
+Dự án được chia sẻ với tinh thần cộng đồng và sáng tạo tự do.
+Chúng tôi không chịu trách nhiệm nếu có lỗi hoặc thiệt hại phát sinh khi sử dụng phần mềm.
+Xem chi tiết tại: LICENSE
 ❤️ Credits
 Chia sẻ để lan tỏa ứng dụng AI vào kinh doanh hiệu quả
 🤝 Dự án này được hoàn thành với sự đồng hành và hỗ trợ tuyệt vời từ ChatGPT – Trợ lý AI đáng tin cậy trong hành trình sáng tạo.

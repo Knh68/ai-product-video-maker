@@ -64,6 +64,7 @@ kết quả sẽ có file final_video.mp4 trong thư mục output.
 **Những hạn chế**
 Video sẽ lấy các hình ảnh làm nền với hiệu ứng nhẹ. 
 Có thể dùng file mp3 và file phụ đề ở thư mục audio và subtitles đã đồng bộ chính xác cùng nhau và chuyển qua các ứng dụng mạnh mẽ khác như Canva, CapCut có thể tiết kiệm thời gian.
+
 📄 **Giấy phép sử dụng – MIT License**
 Bạn được phép sử dụng lại, chỉnh sửa, và tích hợp dự án này cho mục đích cá nhân hoặc thương mại, miễn là giữ nguyên thông tin bản quyền trong file LICENSE.
 
